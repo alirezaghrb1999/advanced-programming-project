@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>signin</class>
+ <widget class="QWidget" name="signin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="1" colspan="2">
+    <widget class="QLineEdit" name="lineEdit_1"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="pushButton_1">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>بازگشت</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 255, 0);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>ورود</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>رمز عبور</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_1">
+     <property name="text">
+      <string>نام کاربری</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1" colspan="2">
+    <widget class="QLineEdit" name="lineEdit_2"/>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>نوع ورود را انتخاب کنید</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QComboBox" name="comboBox">
+     <item>
+      <property name="text">
+       <string>مدیر بنگاه</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>کاربر</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit_1</tabstop>
+  <tabstop>lineEdit_2</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>pushButton_1</tabstop>
+  <tabstop>comboBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

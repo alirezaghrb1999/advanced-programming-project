@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>search_maskan</class>
+ <widget class="QWidget" name="search_maskan">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>فیلتر جستجو مسکن</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>مقدار الف</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="pushButton_1">
+     <property name="text">
+      <string>بازگشت</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>مقدار ب</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="5">
+    <widget class="QTextEdit" name="textEdit"/>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="lineEdit_1"/>
+   </item>
+   <item row="2" column="4">
+    <widget class="QLineEdit" name="lineEdit_2"/>
+   </item>
+   <item row="3" column="1" colspan="4">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>نمایش</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="4">
+    <widget class="QComboBox" name="comboBox">
+     <item>
+      <property name="text">
+       <string>مشاهده ی تمامی مسکن های ویلایی</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>مشاهده ی تمامی مسکن های آپارتمانی</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>مشاهده ی مسکن هایی که قیمت پایه کمتر از (الف) و متراژ ساخت بیشتر از (ب) است</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>مشاهده ی مسکن هایی که در محدوده ی خیابان (الف) قرار داردن</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
